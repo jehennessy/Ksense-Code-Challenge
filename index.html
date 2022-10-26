@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ksense Code Challenge</title>
+        <meta name="description" content="Display users in a table. When a user is selected display the posts by that user">
+    
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/cfo4qez.css">
+        <script src="main.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    </head>
+
+    <body>
+        <div class="header-container">
+            <h1>Ksense Code Challenge</h1>
+            <h3>By Jordan Hennessy</h3>
+            <div class="social-container">
+
+                <span id="instagram" class="social-icon">
+                    <a href="https://www.instagram.com/jhennessydesign/" target="_blank">
+                        <i data-feather="instagram"></i>
+                    </a>
+                </span>
+
+                <span id="linkedin" class="social-icon">
+                    <a href="https://www.linkedin.com/in/jordan-e-hennessy/" target="_blank">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                </span>
+
+                <span id="github" class="social-icon">
+                    <a href="https://github.com/jehennessy" target="_blank">
+                        <i data-feather="github"></i>
+                    </a>
+                </span>
+
+                <span id="website" class="social-icon">
+                    <a href="https://jhennessy.design/" target="_blank">
+                        <i data-feather="globe"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <h2>Users</h2>
+            <h3>Select a user to see their posts</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>City</th>
+                        <th>Website</th>
+                        <th>Company</th>
+                    </tr>
+                </thead>
+                <tbody id="userData">
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="posts-container">
+            <h2>Posts by: <span id="author">No Author Selected</span></h2>
+            <div id="postData">
+
+            </div>
+        </div>
+        <script>
+            feather.replace()
+        </script>
+    </body>
+</html>

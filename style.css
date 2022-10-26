@@ -1,0 +1,126 @@
+body {
+    padding: 3em;
+    background-color: #0D0D0D;
+    color: #D9CDBF;
+}
+
+h1, h2, h4 {
+    font-family: articulat-heavy-cf, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h3 {
+    font-family: articulat-cf, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+thead, p {
+    font-family: articulat-cf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+tbody {
+    font-family: articulat-cf, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.header-container {
+    color: #8C8377;
+    text-align: center;
+}
+
+
+.social-icon {
+    margin: 0 20px;
+}
+
+.social-icon a {
+    color:  #D9CDBF;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    opacity: .5;
+}
+
+
+.table-container {
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #BFB3A4;
+    color: #0D0D0D;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    text-align: left;
+    border: 1px solid #BFB3A4;
+}
+
+td {
+    padding: 10px;
+}
+
+.name:hover {
+    opacity: .5;
+}
+
+.posts-container h2 {
+    text-align: center;
+}
+
+#postData{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.post {
+    background-color:  #BFB3A4;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.post h4 {
+    color: #8C8377;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.post p {
+    color: #0D0D0D;
+}
+
